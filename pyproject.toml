@@ -1,0 +1,24 @@
+[tool.poetry]
+name = "contextvar"
+version = "0.0.1"
+description = "..."
+authors = []
+packages = [{ include = "contextvar" }]
+
+[tool.poetry.dependencies]
+python = "^3.12"
+pytest = "^8.3.2"
+
+[tool.ruff]
+line-length = 120
+
+[tool.ruff.lint]
+# I - import order
+# F - pyflakes (default)
+# B - catches common bugs
+# N - PEP8 naming conventions
+# EM - string in raise exception should be a string from a variable string (see https://docs.astral.sh/ruff/rules/f-string-in-exception/#why-is-this-bad)
+# T20 - catches any print statements
+# ERA - catches commented out code
+# PERF - easy performance improvements
+select = ["I", "F", "B", "N", "EM", "T20", "ERA", "PERF"]
