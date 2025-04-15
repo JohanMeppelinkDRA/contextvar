@@ -1,9 +1,9 @@
 [tool.poetry]
-name = "contextverify"
-version = "0.0.3"
+name = "contextvar"
+version = "0.0.4"
 description = "..."
 authors = []
-packages = [{ include = "contextvar" }, { include = "verify" }]
+packages = [{ include = "contextvar" }]
 
 [tool.poetry.dependencies]
 python = "^3.12"
