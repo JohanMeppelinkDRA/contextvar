@@ -3,7 +3,7 @@ name = "contextverify"
 version = "0.0.2"
 description = "..."
 authors = []
-packages = [{ include = "contextvar" }]
+packages = [{ include = "contextvar" }, { include = "verify" }]
 
 [tool.poetry.dependencies]
 python = "^3.12"
