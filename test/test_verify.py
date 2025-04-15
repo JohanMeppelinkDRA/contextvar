@@ -3,7 +3,7 @@ from unittest.mock import patch
 import pytest
 
 from verify import verify
-from verify.verify_modes import VerifyMode
+from verify_modes import VerifyMode
 
 
 def test_verify_crash_mode_pass():
