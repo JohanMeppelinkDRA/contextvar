@@ -1,6 +1,6 @@
 import pytest
 
-from contextvar import ContextVar, Context
+from contextvar import Context, ContextVar
 
 
 def test_use_contextvar():
