@@ -21,7 +21,7 @@ def test_use_contextvar():
         ContextVar("NEW_VAR", default_value=2)
 
 
-def test_use_contetvar_iterable():
+def test_use_contextvar_iterable():
     test_set_var = ContextVar("TEST_SET_VAR", default_value={1, 2, 3})
     assert test_set_var == {1, 2, 3}
     assert 1 in test_set_var
