@@ -21,7 +21,6 @@ if not __debug__:  # True when running with -O/-OO
     ASSERT_MODE = VerifyMode.SKIP  # Auto-disable in optimized mode
 
 
-
 def verify(cond: Callable, message: str = ""):
     """The condition_func should return a boolean value. Note it needs to be a callable not a boolean value itself.
     In front of your condition you could do lambda: <condition> to make it a callable."""
